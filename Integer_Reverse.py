@@ -9,6 +9,4 @@ def integer_reverse(self, num):
         result = result*10 + num%10
         num = int(num/10)
 
-    result = result * sign
-
-    return result
+    return result * sign
