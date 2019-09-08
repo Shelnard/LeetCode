@@ -8,4 +8,3 @@ def two_sum(nums, target_num):
             if sums == target_num:
                 result.append((i, j))
     return result
-#Test update new
