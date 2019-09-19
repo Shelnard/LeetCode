@@ -1,4 +1,4 @@
-from Integer_Reverse import *
-from Palindrome import *
-b = palindrome(121)
-print(b)
+from times_len import *
+
+b = [1,2,2,3,1]
+print(findShortestSubArray(b))
