@@ -33,4 +33,4 @@ def findShortestSubArray(nums):
         if times[i] == b[-1]:
             ans.append(dif[i])
 
-    return max(ans[:])
+    return b, dif, ans
